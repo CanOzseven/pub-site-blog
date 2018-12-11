@@ -1,0 +1,25 @@
+﻿body {
+    background-color:burlywood;
+    margin: 0 auto;
+    width:600px;
+    font:normal 15px arial,verdana;
+}
+
+.sabitler li {
+     text-decoration:none;
+    float:left;
+   padding : 3px;
+   display:block;
+   margin:5px;
+}
+
+
+.sabitler li a{
+ 
+    text-decoration:none;
+}
+.sabitler li a:hover{
+    border-bottom:3px solid #1209e8;
+    padding-bottom:9px;
+}
+ 

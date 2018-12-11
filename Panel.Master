@@ -1,0 +1,43 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Panel.master.cs" Inherits="habBlog.Panel" %>
+ 
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+
+    <link href="adminpanel.css" rel="stylesheet" />
+</head>
+<body>
+   <form id="panel" runat="server">
+    <div class="sabitler">
+       <table>
+                <tr>
+                    <td>
+                        <h1>Admin Yönetim Paneli</h1>
+                    </td>
+                </tr>
+                <tr>
+                    <td><ol>
+                        <li><a href="HaberEkle.aspx">Haber Ekle</a></li>
+                        <li><a href="haberGoster.aspx">Haberleri Göster</a></li>
+                        <li><a href="adminEkle.aspx">Admin Ekle </a></li>
+                        <li><a href="adminGoster.aspx">Adminleri Göster</a></li>
+                        <li><a href="cikisyap.aspx">Çıkış yap</a></li>
+
+                    </ol></td>
+                </tr>
+           <tr>
+                   <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+ 
+                   </asp:ContentPlaceHolder>
+           </tr>
+               
+        </table>
+           </div>
+    </form>
+</body>
+</html>

@@ -1,0 +1,62 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Default.master.cs" Inherits="habBlog.Default" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>Anasayfa</title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    
+    <link href="style.css" rel="stylesheet" />
+ 
+</head>
+<body>
+     
+        <div>
+            <table width="100%" cellspacing="0" cellpadding="0">
+                <tr style="height:20%;">
+                    <td>
+                        <div>
+                           <a href="anasayfa.aspx">
+                               <img src="images/simge.png" /> 
+                           </a>
+                        </div>
+                         
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <hr />
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <div class="menu-div">
+                            <ul>
+                                <li><a href="anasayfa.aspx">Anasayfa</a></li>
+                                <li><a href="iletisim.aspx">İletişim</a></li>
+                                <li><a href="giris.aspx">Admin Girişi</a></li>
+                            </ul>
+                        </div>
+                    </td>
+                </tr>
+                <tr style="">
+                    <td>
+                        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+
+                        </asp:ContentPlaceHolder>
+                    </td>
+                </tr>
+                <tr>
+                    <td align="center">
+                              <div>
+                                <hr />
+                                Tüm Hakları Saklıdır. İnternet sitesimizde yayınlanan makale, yazı, döküman, dosyalar ve resimler izin alınmadan ve kaynak gösterilmeden kullanılamaz.
+                            </div>
+                    </td>
+                </tr>
+            </table>
+        </div>
+</body>
+</html>

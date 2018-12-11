@@ -1,0 +1,78 @@
+﻿h1 {
+    margin:0px;
+    padding:0px;
+}
+td{
+     margin:0px;
+     padding:0px;
+}
+body {
+      margin: 0 auto;
+        width:800px;
+        background:white;
+        font:normal 15px arial,verdana;
+    
+}
+.menu-div li  {
+    text-decoration:none;
+    float:left;
+   padding : 3px;
+   display:block;
+   margin:5px;
+}
+.menu-div li a{
+        text-decoration:none;
+
+}
+.menu-div li a:hover{
+    border-bottom:3px solid #1215ac;
+    padding-bottom:9px;
+}
+div .footer-fix{
+    position:fixed;
+    top: 255px;
+    left: 43px;
+}
+.ana {
+
+    margin:0 auto ;
+   
+    border:1px solid #d3d3d3;               
+
+    padding:10px;                         
+
+    width:250px;                           
+
+    height:130px;                            
+
+    background:#eee;  
+    margin-top:30px;
+    margin-bottom:30px;                    
+
+font:12px Arial, Tahoma, Verdana;
+
+}
+ 
+div .ana .bas
+{
+background:#333;  
+color:#fff; 
+padding:10px;
+font-weight:bold;  
+
+}
+
+ 
+.ana p{
+    font-size:15px;
+    color:red;
+    margin-top:15px;
+    font:bold;
+}
+.detay-icerik h1{
+    background-color:bisque;
+     
+}
+.adminEkleStil h1 { 
+    background-color:cornflowerblue;
+}
